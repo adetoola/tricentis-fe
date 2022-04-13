@@ -1,27 +1,33 @@
 .App {
   text-align: center;
+  display:flex;
+  margin: auto;
+  flex-direction: column;
 }
 input {
-  width: 300px;
-  padding: 5px;
-  border-radius: 5px;
-  border: none;
-}
-
-.result-container {
-  border: 2px solid rgb(0, 0, 0);
-  background-color: rgb(99, 96, 96);
-  padding: 8px;
-  margin-top: 12px;
+  width: 320px;
+  padding: 8px 0;
+  margin: 12px;
+  border: 2px solid #000;
   border-radius: 8px;
 }
 
+.result-container {
+  border: 2px solid #000;
+  background-color: #3b3b3b;
+  padding: 8px;
+  margin-top: 12px;
+  border-radius: 8px;
+  width: 320px;
+}
+
 .result {
-  border: 2px solid rgb(0, 0, 0);
+  border: 2px solid #000;
   width: 300px;
   text-align: center;
   padding: 8px 0;
   margin: 12px;
   border-radius: 8px;
+  background-color: #eee;
 }
 
