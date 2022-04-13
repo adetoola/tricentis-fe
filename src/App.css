@@ -1,0 +1,27 @@
+.App {
+  text-align: center;
+}
+input {
+  width: 300px;
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+}
+
+.result-container {
+  border: 2px solid rgb(0, 0, 0);
+  background-color: rgb(99, 96, 96);
+  padding: 8px;
+  margin-top: 12px;
+  border-radius: 8px;
+}
+
+.result {
+  border: 2px solid rgb(0, 0, 0);
+  width: 300px;
+  text-align: center;
+  padding: 8px 0;
+  margin: 12px;
+  border-radius: 8px;
+}
+
