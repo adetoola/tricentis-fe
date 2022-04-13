@@ -33,7 +33,7 @@ function App() {
   useEffect(() => {
     const interval = setInterval(() => {
       if (searchResult.length > 0) {
-        setDisplayList([...displayList.slice(1), ...searchResult]);
+        setDisplayList([...initialList.slice(1), ...searchResult]);
       } else {
         setDisplayList([...displayList.slice(1), displayList[0]]);
       }
@@ -52,7 +52,7 @@ function App() {
         onKeyPress={debounce(() => handleSearch(), 3000)}
       />
       <div className="result-container">
-        {displayList.map((result, index) => {
+        {displayList.slice(0, 5).map((result, index) => {
           return (
             <div className="result" key={index}>
               {result}
